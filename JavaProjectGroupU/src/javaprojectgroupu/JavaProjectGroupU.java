@@ -2,7 +2,7 @@
  Module: Time & Task Management
 CA2 - 
 Lecturer: John Snel
-authors: Danrlei da Silva Martins, Oséas Filho
+authors: Danrlei da Silva Martins, Oséas Filho, Guilherme Oliveira
  */
 package javaprojectgroupu;
 
