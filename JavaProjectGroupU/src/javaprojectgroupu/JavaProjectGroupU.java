@@ -3,6 +3,7 @@
 CA2 - 
 Lecturer: John Snel
 authors: Danrlei da Silva Martins
+authors: Oséas Filho
  */
 package javaprojectgroupu;
 
