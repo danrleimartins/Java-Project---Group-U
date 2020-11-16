@@ -8,6 +8,7 @@ package javaprojectgroupu;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 
 
@@ -72,10 +73,40 @@ public class JavaProjectGroupU {
 }
     }
     
+    static void OseasMethod() {
+        /*
+        * Author: Oséas Filho
+        * Method: Sum
+        */
+            
+        int num1, num2, sum;
+            
+        try {
+            Scanner myKb = new Scanner(System.in);
+            
+            System.out.println("Please, enter a number.");
+            num1 = Integer.parseInt(myKb.nextLine());
+            
+            System.out.println("Please, enter a second number.");
+            num2 = Integer.parseInt(myKb.nextLine());
+            
+            sum = num1 + num2;
+            
+            System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
+        }
+        
+        catch(Exception e){
+            
+            System.out.println("Sorry, only integers allowed.");
+        
+        }
+    }
+    
     public static void main(String[] args) {
         
         DanrleiMethod();
         GuilhermeMethod();
+        OseasMethod();
     }
     
 }
