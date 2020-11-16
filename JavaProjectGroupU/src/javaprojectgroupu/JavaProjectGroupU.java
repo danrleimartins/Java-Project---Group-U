@@ -9,16 +9,13 @@ package javaprojectgroupu;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-
-
 public class JavaProjectGroupU {
     
     static void DanrleiMethod(){
         /*
         author: Danrlei Martins
-        method: Multiply
+        method: multiply
         */
-        
         int input1, input2, multiply;
         
         try {
@@ -36,11 +33,9 @@ public class JavaProjectGroupU {
             
         }
         catch (Exception e){
-            
+            System.out.println("Invalid input, please enter only numbers");
         }
-        
     }
-
     
     public static void main(String[] args) {
         
