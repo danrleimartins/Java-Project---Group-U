@@ -35,15 +35,10 @@ public class JavaProjectGroupU {
             
         }
         catch (Exception e){
+            System.out.println("Invalid input, please enter only numbers");
             
         }
         
-    }
-
-    
-    public static void main(String[] args) {
-        
-        DanrleiMethod();
     }
     
     static void GuilhermeMethod(){
@@ -75,6 +70,11 @@ public class JavaProjectGroupU {
     catch (Exception e){
     System.out.println("error!");
 }
+    }
+    
+    public static void main(String[] args) {
+        
+        DanrleiMethod();
     }
     
 }
