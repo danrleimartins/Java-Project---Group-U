@@ -75,6 +75,7 @@ public class JavaProjectGroupU {
     public static void main(String[] args) {
         
         DanrleiMethod();
+        GuilhermeMethod();
     }
     
 }
