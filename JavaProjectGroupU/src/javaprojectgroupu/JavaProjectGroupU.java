@@ -10,104 +10,108 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-
-
 public class JavaProjectGroupU {
-    
-    static void DanrleiMethod(){
+
+    static void DanrleiMethod() {
         /*
         author: Danrlei Martins
         method: Multiply
-        */
-        
+         */
+
         int input1, input2, multiply;
-        
+
         try {
             BufferedReader myKB = new BufferedReader(new InputStreamReader(System.in));
-        
+
             System.out.println("Please enter a number");
             input1 = Integer.parseInt(myKB.readLine());
-            
+
             System.out.println("Please enter another number");
-            input2 = Integer.parseInt(myKB.readLine());            
+            input2 = Integer.parseInt(myKB.readLine());
             multiply = input1 * input2;
-            
-            System.out.println(input1 +  " multiplied by " + input2 + " is " + multiply);
-            
-        }
-        catch (Exception e){
+
+            System.out.println(input1 + " multiplied by " + input2 + " is " + multiply);
+
+        } catch (Exception e) {
             System.out.println("Invalid input, please enter only numbers");
-            
+
         }
-        
+
     }
-    
-    static void GuilhermeMethod(){
+
+    static void GuilhermeMethod() {
         /*
         author: Guilherme Oliveira
         method: Division
-        */
-        try{
-        BufferedReader myKb = new BufferedReader (new InputStreamReader(System.in));
-       
-                System.out.println("Please, enter a number");
-        int input = Integer.parseInt(myKb.readLine());
-        
-        
-                System.out.println("Please, enter a second number");
-        int input2 = Integer.parseInt(myKb.readLine());
-        
-        if (input2 == 0) {
-                System.out.println("error!");
-        }
-        
-        else {
-        
-        System.out.println("The first number divided by the second number is " + (input/input2));
-        
-    }
-}
+         */
+        try {
+            BufferedReader myKb = new BufferedReader(new InputStreamReader(System.in));
 
-    catch (Exception e){
-    System.out.println("error!");
-}
+            System.out.println("Please, enter a number");
+            int input = Integer.parseInt(myKb.readLine());
+
+            System.out.println("Please, enter a second number");
+            int input2 = Integer.parseInt(myKb.readLine());
+
+            if (input2 == 0) {
+                System.out.println("error!");
+            } else {
+
+                System.out.println("The first number divided by the second number is " + (input / input2));
+
+            }
+        } catch (Exception e) {
+            System.out.println("error!");
+        }
     }
-    
+
     static void OseasMethod() {
         /*
         * Author: Oséas Filho
         * Method: Sum
-        */
-            
+         */
+
         int num1, num2, sum;
-            
+
         try {
             Scanner myKb = new Scanner(System.in);
-            
+
             System.out.println("Please, enter a number.");
             num1 = Integer.parseInt(myKb.nextLine());
-            
+
             System.out.println("Please, enter a second number.");
             num2 = Integer.parseInt(myKb.nextLine());
-            
+
             sum = num1 + num2;
-            
+
             System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
-        }
-        
-        catch(Exception e){
-            
+        } catch (Exception e) {
+
             System.out.println("Sorry, only integers allowed.");
-        
+
         }
     }
-    
+
+    /* 
+        * Author: Michel Tormes
+        * Method: Lff
+     */
+    static void MichelMethod() {
+        String CSI = "\u001B[";
+        System.out.print(CSI + "32" + "m");
+
+        System.out.println("This is the group U calculator");
+        System.out.println("Thanks for your preference");
+        System.out.println(CSI + "m");
+
+    }
+
     public static void main(String[] args) {
-        
+
         DanrleiMethod();
         GuilhermeMethod();
         OseasMethod();
+        MichelMethod();
     }
-    
-}
 
+}
