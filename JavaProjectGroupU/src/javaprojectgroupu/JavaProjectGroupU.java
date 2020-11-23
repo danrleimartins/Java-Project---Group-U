@@ -65,14 +65,7 @@ public class JavaProjectGroupU {
         }
     }
 
-<<<<<<< HEAD
-    catch (Exception e){
-    System.out.println("error!");
-    }
-}
-    
-=======
->>>>>>> 8af2dfe22b55ac92e9e453bf6fda2db2cfb1df14
+
     static void OseasMethod() {
         /*
         * Author: Oséas Filho
@@ -99,7 +92,6 @@ public class JavaProjectGroupU {
 
         }
     }
-<<<<<<< HEAD
     
     static void AlineMethod(){
         
@@ -134,9 +126,6 @@ public class JavaProjectGroupU {
         
     }
     
-    
-=======
-
     static void MichelMethod() {
         /* 
         * Author: Michel Tormes
@@ -151,17 +140,14 @@ public class JavaProjectGroupU {
 
     }
 
->>>>>>> 8af2dfe22b55ac92e9e453bf6fda2db2cfb1df14
+
     public static void main(String[] args) {
 
         DanrleiMethod();
         GuilhermeMethod();
         OseasMethod();
-<<<<<<< HEAD
         AlineMethod();
-=======
         MichelMethod();
->>>>>>> 8af2dfe22b55ac92e9e453bf6fda2db2cfb1df14
     }
 
 }
