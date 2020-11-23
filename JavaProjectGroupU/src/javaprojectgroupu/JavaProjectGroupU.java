@@ -47,34 +47,34 @@ public class JavaProjectGroupU {
         method: Division
         */
         try{
-        BufferedReader myKb = new BufferedReader (new InputStreamReader(System.in));
+                BufferedReader myKb = new BufferedReader (new InputStreamReader(System.in));
        
                 System.out.println("Please, enter a number");
-        int input = Integer.parseInt(myKb.readLine());
+                int input = Integer.parseInt(myKb.readLine());
         
         
                 System.out.println("Please, enter a second number");
-        int input2 = Integer.parseInt(myKb.readLine());
+                int input2 = Integer.parseInt(myKb.readLine());
         
-        if (input2 == 0) {
+                if (input2 == 0) {
                 System.out.println("error!");
         }
         
         else {
         
-        System.out.println("The first number divided by the second number is " + (input/input2));
+                System.out.println("The first number divided by the second number is " + (input/input2));
         
     }
 }
 
     catch (Exception e){
-    System.out.println("error!");
+                System.out.println("error!");
 }
     }
     
     public static void main(String[] args) {
         
-        DanrleiMethod();
+        GuilhermeMethod();
     }
     
 }
