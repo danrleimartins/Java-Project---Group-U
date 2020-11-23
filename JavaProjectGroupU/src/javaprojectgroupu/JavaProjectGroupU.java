@@ -92,11 +92,11 @@ public class JavaProjectGroupU {
         }
     }
 
-    /* 
+    static void MichelMethod() {
+        /* 
         * Author: Michel Tormes
         * Method: Lff
      */
-    static void MichelMethod() {
         String CSI = "\u001B[";
         System.out.print(CSI + "32" + "m");
 
