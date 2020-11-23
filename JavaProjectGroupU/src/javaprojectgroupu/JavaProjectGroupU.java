@@ -70,8 +70,8 @@ public class JavaProjectGroupU {
 
     catch (Exception e){
     System.out.println("error!");
-}
     }
+}
     
     static void OseasMethod() {
         /*
@@ -102,11 +102,46 @@ public class JavaProjectGroupU {
         }
     }
     
+    static void AlineMethod(){
+        
+          /*
+        * Author: Aline Roberta Leao
+        * Method
+        */
+        
+        int a, l, total;
+        Scanner myKb = new Scanner(System.in);
+            
+        try {
+            
+            
+            System.out.println("Please, enter a number.");
+        a = Integer.parseInt(myKb.nextLine());
+            
+            System.out.println("Please, enter a second number.");
+        l = Integer.parseInt(myKb.nextLine());
+            
+            total = a - l;
+            
+            System.out.println("If you subtracted the second number of the first number is: " + total + ".");
+        }
+        
+        catch(Exception e){
+            
+            System.out.println("Sorry, only integers allowed.");
+        
+        }
+        
+        
+    }
+    
+    
     public static void main(String[] args) {
         
         DanrleiMethod();
         GuilhermeMethod();
         OseasMethod();
+        AlineMethod();
     }
     
 }
