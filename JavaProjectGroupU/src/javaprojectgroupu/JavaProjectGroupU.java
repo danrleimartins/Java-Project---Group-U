@@ -1,8 +1,8 @@
 /*
  Module: Time & Task Management
-CA2 - 
+CA2 - Collaborating with Technology
 Lecturer: John Snel
-authors: Danrlei da Silva Martins, Oséas Filho, Guilherme Oliveira
+authors: Danrlei da Silva Martins, Oséas Filho, Guilherme Oliveira, Michel Tormes and Aline Roberta Leão
  */
 package javaprojectgroupu;
 
@@ -43,8 +43,13 @@ public class JavaProjectGroupU {
         /*
         author: Guilherme Oliveira
         method: Division
+<<<<<<< HEAD
         */
        
+=======
+         */
+        
+>>>>>>> 0dbc3f3d638d98bed6bf34a8da56866d82c4f8ee
         try {
             BufferedReader myKb = new BufferedReader(new InputStreamReader(System.in));
 
@@ -65,6 +70,7 @@ public class JavaProjectGroupU {
             System.out.println("Error!");
         }        
     }
+
 
     static void OseasMethod() {
         /*
@@ -92,27 +98,77 @@ public class JavaProjectGroupU {
 
         }
     }
-
+    
+    static void AlineMethod(){
+        
+          /*
+        * Author: Aline Roberta Leao
+        * Method: Subtraction
+        */
+        
+        int a, l, total;
+        Scanner myKb = new Scanner(System.in);
+            
+        try {
+            
+            
+            System.out.println("Please, enter a number.");
+        a = Integer.parseInt(myKb.nextLine());
+            
+            System.out.println("Please, enter a second number.");
+        l = Integer.parseInt(myKb.nextLine());
+            
+            total = a - l;
+            
+            System.out.println("If you subtracted the second number of the first number is: " + total + ".");
+        }
+        
+        catch(Exception e){
+            
+            System.out.println("Sorry, only integers allowed.");
+        
+        }
+        
+        
+    }
+    
     static void MichelMethod() {
         /* 
         * Author: Michel Tormes
-        * Method: Lff
+        * Method: Print
      */
         String CSI = "\u001B[";
         System.out.print(CSI + "32" + "m");
 
-        System.out.println("This is the group U calculator");
-        System.out.println("Thanks for your preference");
+        System.out.println("This is the group U calculator.");
+        System.out.println("Thanks for your preference!");
         System.out.println(CSI + "m");
 
     }
 
+
     public static void main(String[] args) {
 
+<<<<<<< HEAD
                
         DanrleiMethod();
         GuilhermeMethod();        
+=======
+        System.out.println("Welcome to the Java Calculator of Group U - Unity");
+        
+        System.out.println("Multiplication");
+        DanrleiMethod();
+        
+        System.out.println("Division");
+        GuilhermeMethod();
+        
+        System.out.println("Summation");
+>>>>>>> 0dbc3f3d638d98bed6bf34a8da56866d82c4f8ee
         OseasMethod();
+        
+        System.out.println("Subtraction");
+        AlineMethod();
+        
         MichelMethod();
 
     }
