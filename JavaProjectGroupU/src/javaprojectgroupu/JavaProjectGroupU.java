@@ -1,8 +1,8 @@
 /*
  Module: Time & Task Management
-CA2 - 
+CA2 - Collaborating with Technology
 Lecturer: John Snel
-authors: Danrlei da Silva Martins, Oséas Filho, Guilherme Oliveira
+authors: Danrlei da Silva Martins, Oséas Filho, Guilherme Oliveira, Michel Tormes and Aline Roberta Leão
  */
 package javaprojectgroupu;
 
@@ -44,6 +44,7 @@ public class JavaProjectGroupU {
         author: Guilherme Oliveira
         method: Division
          */
+        
         try {
             BufferedReader myKb = new BufferedReader(new InputStreamReader(System.in));
 
@@ -97,7 +98,7 @@ public class JavaProjectGroupU {
         
           /*
         * Author: Aline Roberta Leao
-        * Method
+        * Method: Subtraction
         */
         
         int a, l, total;
@@ -129,13 +130,13 @@ public class JavaProjectGroupU {
     static void MichelMethod() {
         /* 
         * Author: Michel Tormes
-        * Method: Lff
+        * Method: Print
      */
         String CSI = "\u001B[";
         System.out.print(CSI + "32" + "m");
 
-        System.out.println("This is the group U calculator");
-        System.out.println("Thanks for your preference");
+        System.out.println("This is the group U calculator.");
+        System.out.println("Thanks for your preference!");
         System.out.println(CSI + "m");
 
     }
@@ -143,10 +144,20 @@ public class JavaProjectGroupU {
 
     public static void main(String[] args) {
 
+        System.out.println("Welcome to the Java Calculator of Group U - Unity");
+        
+        System.out.println("Multiplication");
         DanrleiMethod();
+        
+        System.out.println("Division");
         GuilhermeMethod();
+        
+        System.out.println("Summation");
         OseasMethod();
+        
+        System.out.println("Subtraction");
         AlineMethod();
+        
         MichelMethod();
     }
 
