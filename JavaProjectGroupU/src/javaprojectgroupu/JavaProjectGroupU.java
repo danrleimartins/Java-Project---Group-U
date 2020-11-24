@@ -39,7 +39,7 @@ public class JavaProjectGroupU {
 
     }
 
-    static void GuilhermeMethod() {
+       static void GuilhermeMethod() {
         /*
         author: Guilherme Oliveira
         method: Division
@@ -49,24 +49,22 @@ public class JavaProjectGroupU {
             BufferedReader myKb = new BufferedReader(new InputStreamReader(System.in));
 
                  System.out.println("Please, enter a number");
-                 double number = Double.parseDouble(myKb.readLine());
+                 float input = Float.parseFloat(myKb.readLine());
 
                  System.out.println("Please, enter a second number");
-                 double number2 = Double.parseDouble(myKb.readLine()) ;
-
-                 if (number2 == 0) {
+                 float input2 = Float.parseFloat(myKb.readLine()) ;
+                 
+                 if (input2 == 0) {
 
                  System.out.println("Error!");
                  } else {
-
-                 System.out.println("The first number divided by the second number is " + (number / number2));
-
+                 System.out.println("The first number divided by the second number is " + input / input2);
+                 
             }
         } catch (Exception e) {
             System.out.println("Error!");
         }        
     }
-}
 
     static void OseasMethod() {
         /*
@@ -111,10 +109,9 @@ public class JavaProjectGroupU {
 
     public static void main(String[] args) {
 
-
-
+               
         DanrleiMethod();
-        GuilhermeMethod();
+        GuilhermeMethod();        
         OseasMethod();
         MichelMethod();
 
